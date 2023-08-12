@@ -123,6 +123,9 @@ main{
    background-repeat: no-repeat;
 
 }
+.catergory-section{
+    width:100%;   
+}
 .category-section li{
     list-style-type: none;
     background-color:#FFF9CA;
