@@ -1,0 +1,127 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023B
+Assessment: Assignment 1
+Author: Chau Minh Tran 
+ID: s3978746
+Acknowledgement: Goodreads (2023) Homepage, Goodreads, accessed 10 Aug 2023.
+https://www.goodreads.com/
+Amazon (2023) Homepage, Amazon, accessed 10 Aug 2023.
+https://www.amazon.com/
+ColorHunt (2023) Homepage, ColorHunt, accessed 10 Aug 2023.
+https://colorhunt.co/palettes/
+ImgBB (2023) Homepage, ImgBB, accessed 10 Aug 2023
+https://imgbb.com/
+GetEmoji (2023) Homepage, GetEmoji, accessed 10 Aug 2023
+https://getemoji.com/ 
+p/s: images citation will be included at the Reference section of my report-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="bookwormvn">
+            <h2><a href="index.html">BookWormVN</a></h2>
+            <div class="box">
+                <div class="search-box">
+                    <form action=""> 
+                    <input type="text" placeholder="Search books, authors...">
+                    <button type="submit">🔍</button>
+                </form>
+                </div>
+            </div>
+        </div>    
+    </header><br>
+
+    <main>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label> 
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Fiction.html" >Fiction</a></li>
+                <li><a href="Non-Fiction.html">Non-Fiction</a></li>
+                <li><a href="Science&Nature.html" >Science and Nature</a></li>
+                <li><a href="Sport&Fitness.html" >Sport and Fitness</a></li>
+            </ul>
+        </nav><br>
+        
+        <div class="category-section">
+            <h2 class="book-type"><a href="Fiction.html">Fiction</a></h2>
+            <ul class="book-display-section">
+                <li><a href="romeo&juliet.html"><img src="https://i.ibb.co/wCFqVPm/romeo-and-juliet.jpg" alt="romeo-and-juliet"></a></li>
+                <li><a href="theexorcist.html"><img src="https://i.ibb.co/P1QSJzf/the-exorcist.jpg" alt="the-exorcist"></a></li>
+                <li><a href="davincicode.html"><img src="https://i.ibb.co/cFJCNKR/da-vinci.jpg" alt="da-vinci"></a></li>
+                <li><a href="silenceofthelamb.html"><img src="https://i.ibb.co/rFtg1KK/Silence-of-the-lamb.png" alt="Silence-of-the-lamb"></a></li>
+                <li><a href="sherlockholmes.html"><img src="https://i.ibb.co/Jnppy5V/adventures-of-Sherlock-Holmes.jpg" alt="adventures-of-Sherlock-Holmes"></a></li>
+            </ul>
+        </div><br>
+        <div class="category-section">
+            <h2 class="book-type"><a href="Non-Fiction.html">Non-Fiction</a></h2>
+            <ul class="book-display-section">
+                <li><a href="shoedog.html"><img src="https://i.ibb.co/gy02dp0/shoe-dog.jpg" alt="shoe-dog"></a></li>
+                <li><a href="thecompassionatemind.html"><img src="https://i.ibb.co/yYcCb96/compassionate-mind.jpg" alt="compassionate-mind"></a></li>
+                <li><a href="becoming.html"><img src="https://i.ibb.co/Ws7JB6y/becoming.jpg" alt="becoming"></a></li>
+                <li><a href="annefrank.html"><img src="https://i.ibb.co/ngq1nWg/anne-frank.jpg" alt="anne-frank"></a></li>
+                <li><a href="thinklikearocketscientist.html"><img src="https://i.ibb.co/ZVV18Vd/think-like-a-rocket-scientist.jpg" alt="think-like-a-rocket-scientist"></a></li>
+            </ul>
+        </div><br>
+        <div class="category-section">
+            <h2 class="book-type"><a href="Science&Nature.html">Science and Nature</a></h2>
+            <ul class="book-display-section">
+                <li><a href="earthscience.html"><img src="https://i.ibb.co/x7h1C06/earth-science.jpg" alt="earth-science"></a></li>
+                <li><a href="chemistryselfteaching.html"><img src="https://i.ibb.co/q7mVxq8/chemistry-book.jpg" alt="chemistry-book" ></a></li>
+                <li><a href="science&naturewriting.html"><img src="https://i.ibb.co/SJ1y9ZG/science-and-nature.jpg" alt="science-and-nature"></a></li>
+                <li><a href="meteorology.html"><img src="https://i.ibb.co/XDRqqWD/meteorology.jpg"" alt="meteorology"></a></li>
+                <li><a href="spaceatlas.html"><img src="https://i.ibb.co/Hqjzr1r/space-atlas.jpg" alt="space-atlas"></a></li>
+            </ul>
+        </div><br>
+        <div class="category-section">
+            <h2 class="book-type"><a href="Sport&Fitness.html">Sport and Fitness</a></h2>
+            <ul class="book-display-section">
+                <li><a href="adaptedpe.html"><img src="https://i.ibb.co/Mhwr8RK/adapted-pe.jpg" alt="adapted-pe"></a></li>
+                <li><a href="mambamentality.html"><img src="https://i.ibb.co/k3Hr4cS/kobe-book.jpg" alt="kobe-book"></li>
+                <li><a href="fasterhigherstronger.html"><img src="https://i.ibb.co/54n2CQ9/faster-higher-stronger.jpg" alt="faster-higher-stronger"></li>
+                <li><a href="yogaformen.html"><img src="https://i.ibb.co/Fw65S4J/yoga.jpg" alt="yoga"></a></li>
+                <li><a href="nutritionforsportexerciseandhealth.html"><img src="https://i.ibb.co/yBjwxFG/nutrition.webp" alt="nutrition"></a></li>
+            </ul>
+        </div><br>
+
+        <div class="video">
+            <h2> You Cannot Find A Suitable Book? Lets Figure It Out Together Shall We?</h2>
+            <iframe src="https://www.youtube.com/embed/DGbzijHee7c" 
+            title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
+    </main><br>
+
+    <footer>
+        <div class="col">
+            <h3><a href="aboutus.html">About Us</a></h3>
+        </div>
+        <div class="col">
+            <h3><a href="privacypolicy.html">Privacy Policy</a></h3>
+        </div>
+        <div class="col">
+            <h3><a href="terms.html">Terms</a></h3>
+        </div>
+        <div class="col">
+            <h3><a href="copyright.html">Copyright ©️</a></h3>
+        </div>
+        <div class="col">
+            <h3><a href="ContactPage.html"> Contact Us </a></h3>
+        </div>
+    </footer>
+</body>
+</html>
