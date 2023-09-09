@@ -218,14 +218,27 @@ h2{
 }
 
 /* embedded video */
-.video iframe{
-    width: 50%;
-    height: 50%;
-    padding: 2%;
-    margin: 0 auto;
+.video-container h2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.video-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 20%;
+    height: 0;
+}
+.video-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /* footer */
 footer{
@@ -408,6 +421,28 @@ footer a{
     .group {
         flex-direction: column;
     }
+    .video-container h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        padding-bottom: 30%;
+        height: 0;
+    }
+    .video-container iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -504,5 +539,27 @@ footer a{
     }
     .book-price {
       flex-direction: column;
+    }
+    .video-container h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 80%;
+        height: 0;
+    }
+    .video-container iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }
